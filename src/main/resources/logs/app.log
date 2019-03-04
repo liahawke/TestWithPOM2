@@ -1,0 +1,135 @@
+2019-37-03 21:37:40.924 [main] INFO   - Opened site
+2019-37-03 21:37:43.390 [main] INFO   - Click on Login Link
+2019-37-03 21:37:46.332 [main] INFO   - Fill data for auth
+2019-37-03 21:37:46.404 [main] INFO   - Verify user
+2019-37-03 21:37:46.936 [main] ERROR  - null
+2019-42-03 21:42:04.831 [main] INFO   - Opened site
+2019-42-03 21:42:07.520 [main] INFO   - Click on Login Link
+2019-42-03 21:42:10.254 [main] INFO   - Fill data for auth
+2019-42-03 21:42:10.309 [main] INFO   - Verify user
+2019-42-03 21:42:10.770 [main] ERROR  - null
+2019-43-03 21:43:09.353 [main] INFO   - Opened site
+2019-43-03 21:43:11.625 [main] INFO   - Click on Login Link
+2019-43-03 21:43:14.423 [main] INFO   - Fill data for auth
+2019-43-03 21:43:14.476 [main] INFO   - Verify user
+2019-57-03 21:57:27.074 [main] INFO   - Opened site
+2019-57-03 21:57:29.232 [main] INFO   - Click on Login Link
+2019-57-03 21:57:31.975 [main] INFO   - Fill data for auth
+2019-57-03 21:57:32.029 [main] INFO   - Verify user
+2019-18-03 22:18:31.141 [main] INFO   - Opened site
+2019-18-03 22:18:34.557 [main] INFO   - Click on Login Link
+2019-18-03 22:18:37.234 [main] INFO   - Fill data for auth
+2019-18-03 22:18:37.288 [main] INFO   - Verify user
+2019-22-03 22:22:21.005 [main] INFO   - Opened site
+2019-22-03 22:22:23.515 [main] INFO   - Click on Login Link
+2019-22-03 22:22:26.371 [main] INFO   - Fill data for auth
+2019-22-03 22:22:26.425 [main] INFO   - Verify user
+2019-24-03 22:24:20.615 [main] INFO   - Opened site
+2019-24-03 22:24:22.801 [main] INFO   - Click on Login Link
+2019-24-03 22:24:26.082 [main] INFO   - Fill data for auth
+2019-24-03 22:24:26.136 [main] INFO   - Verify user
+2019-24-03 22:24:55.871 [main] INFO   - Opened site
+2019-25-03 22:25:00.047 [main] INFO   - Click on Login Link
+2019-25-03 22:25:03.489 [main] INFO   - Fill data for auth
+2019-25-03 22:25:03.547 [main] INFO   - Verify user
+2019-37-03 22:37:52.445 [main] INFO   - Opened site
+2019-37-03 22:37:54.798 [main] INFO   - Click on Login Link
+2019-37-03 22:37:58.001 [main] INFO   - Fill data for auth
+2019-37-03 22:37:58.067 [main] INFO   - Verify user
+2019-38-03 22:38:32.365 [main] INFO   - Opened site
+2019-38-03 22:38:34.510 [main] INFO   - Click on Login Link
+2019-38-03 22:38:38.041 [main] INFO   - Fill data for auth
+2019-38-03 22:38:38.095 [main] INFO   - Verify user
+2019-39-03 22:39:27.431 [main] INFO   - Opened site
+2019-39-03 22:39:29.817 [main] INFO   - Click on Login Link
+2019-39-03 22:39:33.128 [main] INFO   - Fill data for auth
+2019-39-03 22:39:33.182 [main] INFO   - Verify user
+2019-06-03 23:06:13.159 [main] INFO   - Opened site
+2019-06-03 23:06:15.778 [main] INFO   - Click on Login Link
+2019-06-03 23:06:18.522 [main] INFO   - Fill data for auth
+2019-06-03 23:06:18.577 [main] INFO   - Verify user
+2019-06-03 23:06:28.066 [main] ERROR  - For input string: "$16.51"
+2019-08-03 23:08:15.834 [main] INFO   - Opened site
+2019-08-03 23:08:19.568 [main] INFO   - Click on Login Link
+2019-08-03 23:08:23.581 [main] INFO   - Fill data for auth
+2019-08-03 23:08:23.634 [main] INFO   - Verify user
+2019-08-03 23:08:37.357 [main] ERROR  - empty String
+2019-10-03 23:10:07.854 [main] INFO   - Opened site
+2019-10-03 23:10:10.071 [main] INFO   - Click on Login Link
+2019-10-03 23:10:12.791 [main] INFO   - Fill data for auth
+2019-10-03 23:10:12.846 [main] INFO   - Verify user
+2019-10-03 23:10:22.706 [main] ERROR  - For input string: "16,51"
+2019-12-03 23:12:39.948 [main] INFO   - Opened site
+2019-12-03 23:12:42.493 [main] INFO   - Click on Login Link
+2019-12-03 23:12:45.367 [main] INFO   - Fill data for auth
+2019-12-03 23:12:45.422 [main] INFO   - Verify user
+2019-12-03 23:12:57.159 [main] ERROR  - empty String
+2019-15-03 23:15:12.916 [main] INFO   - Opened site
+2019-15-03 23:15:15.262 [main] INFO   - Click on Login Link
+2019-15-03 23:15:17.998 [main] INFO   - Fill data for auth
+2019-15-03 23:15:18.058 [main] INFO   - Verify user
+2019-15-03 23:15:28.443 [main] ERROR  - empty String
+2019-16-03 23:16:53.466 [main] INFO   - Opened site
+2019-16-03 23:16:55.693 [main] INFO   - Click on Login Link
+2019-16-03 23:16:58.493 [main] INFO   - Fill data for auth
+2019-16-03 23:16:58.548 [main] INFO   - Verify user
+2019-17-03 23:17:08.542 [main] ERROR  - Price is different! expected:<3[3].02> but was:<3[5].02>
+2019-19-03 23:19:40.506 [main] INFO   - Opened site
+2019-19-03 23:19:44.905 [main] INFO   - Click on Login Link
+2019-19-03 23:19:47.705 [main] INFO   - Fill data for auth
+2019-19-03 23:19:47.759 [main] INFO   - Verify user
+2019-20-03 23:20:00.445 [main] ERROR  - For input string: "$2.00"
+2019-20-03 23:20:36.218 [main] INFO   - Opened site
+2019-20-03 23:20:38.619 [main] INFO   - Click on Login Link
+2019-20-03 23:20:41.365 [main] INFO   - Fill data for auth
+2019-20-03 23:20:41.420 [main] INFO   - Verify user
+2019-22-04 00:22:15.113 [main] INFO   - Opened site
+2019-22-04 00:22:18.939 [main] INFO   - Click on Login Link
+2019-22-04 00:22:22.111 [main] INFO   - Fill data for auth
+2019-22-04 00:22:22.174 [main] INFO   - Verify user
+2019-23-04 00:23:06.591 [main] INFO   - Opened site
+2019-23-04 00:23:09.825 [main] INFO   - Click on Login Link
+2019-23-04 00:23:12.506 [main] INFO   - Fill data for auth
+2019-23-04 00:23:12.560 [main] INFO   - Verify user
+2019-29-04 00:29:54.215 [main] INFO   - Opened site
+2019-29-04 00:29:57.225 [main] INFO   - Click on Login Link
+2019-29-04 00:29:59.912 [main] INFO   - Fill data for auth
+2019-29-04 00:29:59.966 [main] INFO   - Verify user
+2019-30-04 00:30:03.103 [main] INFO   - Click on T-Shirt menu's item
+2019-30-04 00:30:05.486 [main] INFO   - Click on Product
+2019-30-04 00:30:05.548 [main] INFO   - Checking Breadcrumbs
+2019-30-04 00:30:07.328 [main] INFO   - Add Product to card
+2019-30-04 00:30:09.253 [main] INFO   - Proceed to checkout
+2019-30-04 00:30:10.973 [main] INFO   - Increase quantity of product
+2019-30-04 00:30:11.166 [main] INFO   - Check price
+2019-30-04 00:30:13.907 [main] INFO   - Delete product from the card
+2019-30-04 00:30:13.960 [main] INFO   - Check title on empty card page
+2019-30-04 00:30:14.729 [main] INFO   - Closed site
+2019-36-04 21:36:52.328 [main] INFO   - Opened site
+2019-36-04 21:36:55.274 [main] INFO   - Click on Login Link
+2019-36-04 21:36:58.142 [main] INFO   - Fill data for auth
+2019-36-04 21:36:58.204 [main] INFO   - Verify user
+2019-37-04 21:37:00.465 [main] INFO   - Click on T-Shirt menu's item
+2019-37-04 21:37:02.552 [main] INFO   - Click on Product
+2019-37-04 21:37:02.621 [main] INFO   - Checking Breadcrumbs
+2019-37-04 21:37:03.893 [main] INFO   - Add Product to card
+2019-37-04 21:37:05.819 [main] INFO   - Proceed to checkout
+2019-37-04 21:37:07.036 [main] INFO   - Increase quantity of product
+2019-37-04 21:37:07.258 [main] INFO   - Check price
+2019-37-04 21:37:09.349 [main] INFO   - Delete product from the card
+2019-37-04 21:37:09.393 [main] INFO   - Check title on empty card page
+2019-37-04 21:37:10.155 [main] INFO   - Closed site
+2019-42-04 21:42:45.836 [main] INFO   - Opened site
+2019-42-04 21:42:48.939 [main] INFO   - Click on Login Link
+2019-42-04 21:42:51.592 [main] INFO   - Fill data for auth
+2019-42-04 21:42:51.647 [main] INFO   - Verify user
+2019-42-04 21:42:54.864 [main] INFO   - Click on T-Shirt menu's item
+2019-42-04 21:42:57.231 [main] INFO   - Click on Product
+2019-42-04 21:42:57.288 [main] INFO   - Checking Breadcrumbs
+2019-42-04 21:42:58.541 [main] INFO   - Add Product to card
+2019-43-04 21:43:00.340 [main] INFO   - Proceed to checkout
+2019-43-04 21:43:01.593 [main] INFO   - Increase quantity of product
+2019-43-04 21:43:01.788 [main] INFO   - Check price
+2019-43-04 21:43:03.897 [main] INFO   - Delete product from the card
+2019-43-04 21:43:03.942 [main] INFO   - Check title on empty card page
+2019-43-04 21:43:04.724 [main] INFO   - Close site
