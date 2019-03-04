@@ -5,18 +5,17 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="data")
+@XmlRootElement(name = "data")
 @XmlAccessorType(XmlAccessType.FIELD)
-
 public class XMLFile {
 
-    @XmlElement(name="url")
+    @XmlElement(name = "url")
     private String url;
 
-    @XmlElement(name="email")
+    @XmlElement(name = "email")
     private String email;
 
-    @XmlElement(name="password")
+    @XmlElement(name = "password")
     private String password;
 
     /**
@@ -38,7 +37,7 @@ public class XMLFile {
     }
 
     /**
-     *  Get password from xml file
+     * Get password from xml file
      *
      * @return String represents password
      */

@@ -133,3 +133,17 @@
 2019-43-04 21:43:03.897 [main] INFO   - Delete product from the card
 2019-43-04 21:43:03.942 [main] INFO   - Check title on empty card page
 2019-43-04 21:43:04.724 [main] INFO   - Close site
+2019-46-04 22:46:41.705 [main] INFO   - Opened site
+2019-46-04 22:46:45.236 [main] INFO   - Click on Login Link
+2019-46-04 22:46:48.696 [main] INFO   - Fill data for auth
+2019-46-04 22:46:48.758 [main] INFO   - Verify user
+2019-46-04 22:46:52.507 [main] INFO   - Click on T-Shirt menu's item
+2019-46-04 22:46:56.705 [main] INFO   - Click on Product
+2019-46-04 22:46:56.773 [main] INFO   - Checking Breadcrumbs
+2019-46-04 22:46:58.048 [main] INFO   - Add Product to card
+2019-47-04 22:47:01.150 [main] INFO   - Proceed to checkout
+2019-47-04 22:47:03.421 [main] INFO   - Increase quantity of product
+2019-47-04 22:47:03.645 [main] INFO   - Check price
+2019-47-04 22:47:06.063 [main] INFO   - Delete product from the card
+2019-47-04 22:47:06.107 [main] INFO   - Check title on empty card page
+2019-47-04 22:47:06.876 [main] INFO   - Close site

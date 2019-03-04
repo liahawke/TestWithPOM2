@@ -1,0 +1,14 @@
+src/main/java/com/testswithpom/projectpom/test/SignInAndAddToCard.java,1551732826287171000,1975,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/ListingPage.java,1551732826237171000,738,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/CheckoutPage.java,1551732826207171000,2310,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/LoginPage.java,1551732826247171000,1070,FORMATTED
+src/main/java/com/testswithpom/projectpom/utils/XMLFile.java,1551732826297171000,1020,FORMATTED
+src/main/java/com/testswithpom/projectpom/base/BaseClass.java,1551732826107171000,3402,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/HomePage.java,1551732826217171000,354,FORMATTED
+src/main/java/com/testswithpom/projectpom/base/RunTestRule.java,1551732826147171000,1975,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/ProductPage.java,1551732826267171000,1344,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/AbstractPage.java,1551732826167171000,1353,FORMATTED
+src/main/java/com/testswithpom/projectpom/pages/AccountPage.java,1551732826187171000,740,FORMATTED
+src/main/java/com/testswithpom/projectpom/utils/XMLParser.java,1551732826317171000,686,FORMATTED
+src/main/java/com/testswithpom/projectpom/utils/YamlFile.java,1551040726552496000,1156,FORMATTED
+src/main/java/com/testswithpom/projectpom/utils/YamlParser.java,1551732826347171000,822,FORMATTED

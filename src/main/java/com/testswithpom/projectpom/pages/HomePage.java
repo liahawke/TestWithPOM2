@@ -2,7 +2,7 @@ package com.testswithpom.projectpom.pages;
 
 import com.testswithpom.projectpom.base.BaseClass;
 
-public class HomePage extends AbstractPage{
+public class HomePage extends AbstractPage {
 
     /**
      * Constructor
@@ -13,5 +13,4 @@ public class HomePage extends AbstractPage{
         super(testClass);
         testClass.waitTillElementIsVisible(divPage);
     }
-
 }

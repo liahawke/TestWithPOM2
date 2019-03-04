@@ -1,9 +1,9 @@
 package com.testswithpom.projectpom.utils;
 
+import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import java.io.File;
 
 public class XMLParser {
 
@@ -21,5 +21,4 @@ public class XMLParser {
 
         return (XMLFile) unmarshaller.unmarshal(new File("src/main/resources/configuration.xml"));
     }
-
 }

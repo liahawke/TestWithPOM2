@@ -4,10 +4,9 @@ import com.testswithpom.projectpom.base.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ListingPage extends AbstractPage{
+public class ListingPage extends AbstractPage {
 
-
-    @FindBy (xpath = "//a[contains(text(),'Faded Short Sleeve T-shirts')]")
+    @FindBy(xpath = "//a[contains(text(),'Faded Short Sleeve T-shirts')]")
     private WebElement productLink;
 
     /**
@@ -20,14 +19,9 @@ public class ListingPage extends AbstractPage{
         testClass.waitTillElementIsVisible(divPage);
     }
 
-
-    /**
-     * Click on subcategory Summer Dresses link
-     *
-     */
-    public ProductPage clickOnProduct(){
+    /** Click on subcategory Summer Dresses link */
+    public ProductPage clickOnProduct() {
         productLink.click();
         return new ProductPage(testClass);
     }
-
 }

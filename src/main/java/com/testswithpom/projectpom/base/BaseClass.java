@@ -2,6 +2,9 @@ package com.testswithpom.projectpom.base;
 
 import com.testswithpom.projectpom.pages.HomePage;
 import com.testswithpom.projectpom.utils.YamlParser;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
@@ -13,14 +16,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.concurrent.TimeUnit;
-
-
 public class BaseClass {
 
-    //Instance of WebDriver
+    // Instance of WebDriver
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -28,17 +26,12 @@ public class BaseClass {
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
     // Rule
-    @Rule
-    public RunTestRule runTestRule = new RunTestRule(this);
+    @Rule public RunTestRule runTestRule = new RunTestRule(this);
 
-
-    @FindBy(xpath="//*[@id='layered_ajax_loader']/p")
+    @FindBy(xpath = "//*[@id='layered_ajax_loader']/p")
     private WebElement loader;
 
-    /**
-     * Constructor
-     *
-     */
+    /** Constructor */
     public BaseClass() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
@@ -77,9 +70,7 @@ public class BaseClass {
         return new HomePage(this);
     }
 
-    /**
-     * Close site with driver.quit()
-     */
+    /** Close site with driver.quit() */
     public void closeSite() {
         driver.quit();
     }
@@ -116,7 +107,7 @@ public class BaseClass {
      *
      * @param message
      */
-    public void log(String message){
+    public void log(String message) {
         logger.info(message);
     }
 
@@ -137,6 +128,4 @@ public class BaseClass {
     public String getDateTime() {
         return new SimpleDateFormat("YYYY-MM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
     }
-
 }
-
