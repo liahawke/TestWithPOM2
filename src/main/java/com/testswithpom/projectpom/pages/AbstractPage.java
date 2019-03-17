@@ -1,6 +1,7 @@
 package com.testswithpom.projectpom.pages;
 
 import com.testswithpom.projectpom.base.BaseClass;
+import com.testswithpom.projectpom.base.ClothesCategories;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,11 +15,14 @@ public abstract class AbstractPage {
     @FindBy(xpath = "//div[@id='page']")
     protected WebElement divPage;
 
-    @FindBy(xpath = "//*[@id='block_top_menu']/ul/li[3]/a")
+    @FindBy(xpath = "//div[@id='block_top_menu']/ul/li/a[@title='T-shirts']")
     public WebElement tshirtsTitle;
 
     // Instances of BaseTest
     protected BaseClass testClass;
+
+    // Instance of ClothesCategories
+    ClothesCategories clothes;
 
     /**
      * Constructor
@@ -44,6 +48,7 @@ public abstract class AbstractPage {
 
     /** Click on Dresses link */
     public ListingPage clickOnMenuLink() {
+        testClass.waitTillElementIsVisible(tshirtsTitle);
         tshirtsTitle.click();
         return new ListingPage(testClass);
     }

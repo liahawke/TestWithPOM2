@@ -14,6 +14,11 @@ public class AccountPage extends AbstractPage {
     @FindBy(xpath = "//a[@title='View my customer account']")
     private WebElement userName;
 
+    /**
+     * Constructor
+     *
+     * @param testClass
+     */
     public AccountPage(BaseClass testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(divPage);

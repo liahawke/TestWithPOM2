@@ -37,7 +37,6 @@ public class BaseClass {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
         driver = new ChromeDriver(options);
-
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);
     }
@@ -89,8 +88,8 @@ public class BaseClass {
      *
      * @param element
      */
-    public void waitTillTextAppears(WebElement element) {
-        wait.until(ExpectedConditions.textToBePresentInElementValue(element, "2"));
+    public void waitTillTextAppears(WebElement element, String expectedText) {
+        wait.until(ExpectedConditions.textToBePresentInElementValue(element, expectedText));
     }
 
     /**

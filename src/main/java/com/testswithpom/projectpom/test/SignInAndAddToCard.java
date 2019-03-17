@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class SignInAndAddToCard extends BaseClass {
 
-    /** Sign in and check name */
     @Test
     public void signInAndCheckName() {
 
@@ -31,11 +30,11 @@ public class SignInAndAddToCard extends BaseClass {
         log("Click on T-Shirt menu's item");
 
         // Click on Product
-        ProductPage productPage = listingPage.clickOnProduct();
+        ProductPage productPage = listingPage.clickOnProduct("Faded Short Sleeve T-shirts");
         log("Click on Product");
 
         // Check Breadcrumbs
-        productPage.checkBreadcrums();
+        productPage.checkBreadcrumbs(productPage.parseExpectedBreadcrumbs());
         log("Checking Breadcrumbs");
 
         // Add product to card
