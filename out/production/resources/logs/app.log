@@ -358,3 +358,17 @@ Session ID: c4cb59fb17c44420a1fbb5f73b2c0fe9
 2019-07-17 21:07:49.684 [main] INFO   - Delete product from the card
 2019-07-17 21:07:52.050 [main] INFO   - Check title on empty card page
 2019-07-17 21:07:52.827 [main] INFO   - Close site
+2019-16-17 21:16:45.028 [main] INFO   - Opened site
+2019-16-17 21:16:47.809 [main] INFO   - Click on Login Link
+2019-16-17 21:16:50.837 [main] INFO   - Fill data for auth
+2019-16-17 21:16:50.891 [main] INFO   - Verify user
+2019-16-17 21:16:53.210 [main] INFO   - Click on T-Shirt menu's item
+2019-16-17 21:16:56.719 [main] INFO   - Click on Product
+2019-16-17 21:16:56.873 [main] INFO   - Checking Breadcrumbs
+2019-16-17 21:16:58.691 [main] INFO   - Add Product to card
+2019-17-17 21:17:00.939 [main] INFO   - Proceed to checkout
+2019-17-17 21:17:02.723 [main] INFO   - Increase quantity of product
+2019-17-17 21:17:02.915 [main] INFO   - Check price
+2019-17-17 21:17:03.084 [main] INFO   - Delete product from the card
+2019-17-17 21:17:05.559 [main] INFO   - Check title on empty card page
+2019-17-17 21:17:06.325 [main] INFO   - Close site

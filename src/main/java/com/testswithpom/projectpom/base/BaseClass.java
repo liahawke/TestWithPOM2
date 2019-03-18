@@ -16,11 +16,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 public class BaseClass {
 
     // Instance of WebDriver
     private WebDriver driver;
     private WebDriverWait wait;
+
+    protected ClothesCategories categories;
 
     // Logger
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
@@ -90,15 +93,6 @@ public class BaseClass {
      */
     public void waitTillTextAppears(WebElement element, String expectedText) {
         wait.until(ExpectedConditions.textToBePresentInElementValue(element, expectedText));
-    }
-
-    /**
-     * Wait until loader is invisible
-     *
-     * @param loader
-     */
-    public void waitUntilLoaderInvisible(String loader) {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     /**

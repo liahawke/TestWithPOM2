@@ -16,7 +16,7 @@ public abstract class AbstractPage {
     protected WebElement divPage;
 
     @FindBy(xpath = "//div[@id='block_top_menu']/ul/li/a[@title='T-shirts']")
-    public WebElement tshirtsTitle;
+    protected WebElement tshirtsTitle;
 
     // Instances of BaseTest
     protected BaseClass testClass;

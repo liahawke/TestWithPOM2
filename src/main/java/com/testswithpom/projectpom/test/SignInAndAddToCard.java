@@ -1,10 +1,12 @@
 package com.testswithpom.projectpom.test;
 
 import com.testswithpom.projectpom.base.BaseClass;
+import com.testswithpom.projectpom.base.ClothesCategories;
 import com.testswithpom.projectpom.pages.*;
 import org.junit.Test;
 
 public class SignInAndAddToCard extends BaseClass {
+
 
     @Test
     public void signInAndCheckName() {
@@ -34,7 +36,7 @@ public class SignInAndAddToCard extends BaseClass {
         log("Click on Product");
 
         // Check Breadcrumbs
-        productPage.checkBreadcrumbs(productPage.parseExpectedBreadcrumbs());
+        productPage.checkBreadcrumbs(productPage.parseExpectedBreadcrumbs(categories.TSHIRTS));
         log("Checking Breadcrumbs");
 
         // Add product to card

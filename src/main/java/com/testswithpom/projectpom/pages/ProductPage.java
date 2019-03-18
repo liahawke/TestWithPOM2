@@ -1,9 +1,12 @@
 package com.testswithpom.projectpom.pages;
 
 import com.testswithpom.projectpom.base.BaseClass;
+import com.testswithpom.projectpom.base.ClothesCategories;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.ArrayList;
 
 public class ProductPage extends AbstractPage {
 
@@ -37,12 +40,12 @@ public class ProductPage extends AbstractPage {
      *
      * @return String with expected Breadcrumbs
      */
-    public String parseExpectedBreadcrumbs() {
+    public String parseExpectedBreadcrumbs(ClothesCategories category) {
         String expectedBreadCrumbs =
-                "> Women>"
-                        + clothes.TSHIRTS.getCategoryName()
+                "> "+category.getGeneralName()+">"
+                        + category.getCategoryName()
                         + ">"
-                        + clothes.TSHIRTS.getSubcategoryName()
+                        + category.getSubcategoryName()
                         + ">"
                         + productName.getText();
         return expectedBreadCrumbs;
